@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:trst-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr User 17000 11000
 encoding utf-8
@@ -2327,6 +2327,20 @@ Text Label 7550 10500 1    50   ~ 0
 PA23
 Text Label 10000 4800 0    50   ~ 0
 PA23
+<<<<<<< HEAD
+=======
+$Comp
+L New_Library_0:MC68040 U4
+U 1 1 5D70B5C3
+P 12400 3800
+F 0 "U4" H 12950 4875 50  0000 C CNN
+F 1 "MC68040" H 12950 4784 50  0000 C CNN
+F 2 "" H 11850 4800 50  0001 C CNN
+F 3 "" H 11850 4800 50  0001 C CNN
+	1    12400 3800
+	1    0    0    -1  
+$EndComp
+>>>>>>> c40c4f7f411ba473b9de1b8ddee4c04d22256c9a
 Wire Wire Line
 	11900 6200 11900 6300
 Wire Wire Line
@@ -3601,6 +3615,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 2250 5800 2550
 Wire Wire Line
+<<<<<<< HEAD
 	5900 2250 5900 2550
 Wire Wire Line
 	6000 2250 6000 2550
@@ -3698,6 +3713,241 @@ Text Label 4650 9500 1    50   ~ 0
 _VPA
 Wire Wire Line
 	6150 5900 6400 5900
+=======
+	9650 10150 9700 10150
+Wire Wire Line
+	10850 8800 11000 8800
+Wire Wire Line
+	11000 8700 10850 8700
+Connection ~ 10850 8700
+Wire Wire Line
+	10850 8700 10850 8800
+Wire Wire Line
+	10850 8600 11000 8600
+Connection ~ 10850 8600
+Wire Wire Line
+	10850 8600 10850 8700
+Wire Wire Line
+	11000 8500 10850 8500
+Connection ~ 10850 8500
+Wire Wire Line
+	10850 8500 10850 8600
+Wire Wire Line
+	10850 8400 11000 8400
+Connection ~ 10850 8400
+Wire Wire Line
+	10850 8400 10850 8500
+Wire Wire Line
+	11000 8300 10850 8300
+Wire Wire Line
+	10850 6100 10850 6200
+Connection ~ 10850 8300
+Wire Wire Line
+	10850 8300 10850 8400
+Wire Wire Line
+	10850 8200 11000 8200
+Connection ~ 10850 8200
+Wire Wire Line
+	10850 8200 10850 8300
+Wire Wire Line
+	11000 8100 10850 8100
+Connection ~ 10850 8100
+Wire Wire Line
+	10850 8100 10850 8200
+Wire Wire Line
+	10850 8000 11000 8000
+Connection ~ 10850 8000
+Wire Wire Line
+	10850 8000 10850 8100
+Wire Wire Line
+	11000 7900 10850 7900
+Connection ~ 10850 7900
+Wire Wire Line
+	10850 7900 10850 8000
+Wire Wire Line
+	10850 7800 11000 7800
+Connection ~ 10850 7800
+Wire Wire Line
+	10850 7800 10850 7900
+Wire Wire Line
+	11000 7700 10850 7700
+Connection ~ 10850 7700
+Wire Wire Line
+	10850 7700 10850 7800
+Wire Wire Line
+	10850 7600 11000 7600
+Connection ~ 10850 7600
+Wire Wire Line
+	10850 7600 10850 7700
+Wire Wire Line
+	11000 7500 10850 7500
+Connection ~ 10850 7500
+Wire Wire Line
+	10850 7500 10850 7600
+Wire Wire Line
+	10850 7400 11000 7400
+Connection ~ 10850 7400
+Wire Wire Line
+	10850 7400 10850 7500
+Wire Wire Line
+	11000 7300 10850 7300
+Connection ~ 10850 7300
+Wire Wire Line
+	10850 7300 10850 7400
+Wire Wire Line
+	10850 7200 11000 7200
+Connection ~ 10850 7200
+Wire Wire Line
+	10850 7200 10850 7300
+Wire Wire Line
+	11000 7100 10850 7100
+Connection ~ 10850 7100
+Wire Wire Line
+	10850 7100 10850 7200
+Wire Wire Line
+	10850 7000 11000 7000
+Connection ~ 10850 7000
+Wire Wire Line
+	10850 7000 10850 7100
+Wire Wire Line
+	11000 6900 10850 6900
+Connection ~ 10850 6900
+Wire Wire Line
+	10850 6900 10850 7000
+Wire Wire Line
+	10850 6800 11000 6800
+Connection ~ 10850 6800
+Wire Wire Line
+	10850 6800 10850 6900
+Wire Wire Line
+	11000 6700 10850 6700
+Connection ~ 10850 6700
+Wire Wire Line
+	10850 6700 10850 6800
+Wire Wire Line
+	10850 6600 11000 6600
+Connection ~ 10850 6600
+Wire Wire Line
+	10850 6600 10850 6700
+Wire Wire Line
+	11000 6500 10850 6500
+Connection ~ 10850 6500
+Wire Wire Line
+	10850 6500 10850 6600
+Wire Wire Line
+	10850 6400 11000 6400
+Connection ~ 10850 6400
+Wire Wire Line
+	10850 6400 10850 6500
+Wire Wire Line
+	11000 6300 10850 6300
+Connection ~ 10850 6300
+Wire Wire Line
+	10850 6300 10850 6400
+Wire Wire Line
+	10850 6200 11000 6200
+Connection ~ 10850 6200
+Wire Wire Line
+	10850 6200 10850 6300
+Wire Wire Line
+	12750 6200 12900 6200
+Wire Wire Line
+	12900 6200 12900 6300
+Wire Wire Line
+	12400 8300 12900 8300
+Wire Wire Line
+	12750 8100 12900 8100
+Connection ~ 12900 8100
+Wire Wire Line
+	12900 8100 12900 8300
+Wire Wire Line
+	12750 8000 12900 8000
+Connection ~ 12900 8000
+Wire Wire Line
+	12900 8000 12900 8100
+Wire Wire Line
+	12750 7900 12900 7900
+Connection ~ 12900 7900
+Wire Wire Line
+	12900 7900 12900 8000
+Wire Wire Line
+	12900 7800 12750 7800
+Connection ~ 12900 7800
+Wire Wire Line
+	12900 7800 12900 7900
+Wire Wire Line
+	12750 7700 12900 7700
+Connection ~ 12900 7700
+Wire Wire Line
+	12900 7700 12900 7800
+Wire Wire Line
+	12900 7600 12750 7600
+Connection ~ 12900 7600
+Wire Wire Line
+	12900 7600 12900 7700
+Wire Wire Line
+	12750 7500 12900 7500
+Connection ~ 12900 7500
+Wire Wire Line
+	12900 7500 12900 7600
+Wire Wire Line
+	12900 7400 12750 7400
+Connection ~ 12900 7400
+Wire Wire Line
+	12900 7400 12900 7500
+Wire Wire Line
+	12750 7300 12900 7300
+Connection ~ 12900 7300
+Wire Wire Line
+	12900 7300 12900 7400
+Wire Wire Line
+	12900 7200 12750 7200
+Connection ~ 12900 7200
+Wire Wire Line
+	12900 7200 12900 7300
+Wire Wire Line
+	12750 7100 12900 7100
+Connection ~ 12900 7100
+Wire Wire Line
+	12900 7100 12900 7200
+Wire Wire Line
+	12900 7000 12750 7000
+Connection ~ 12900 7000
+Wire Wire Line
+	12900 7000 12900 7100
+Wire Wire Line
+	12750 6900 12900 6900
+Connection ~ 12900 6900
+Wire Wire Line
+	12900 6900 12900 7000
+Wire Wire Line
+	12900 6800 12750 6800
+Connection ~ 12900 6800
+Wire Wire Line
+	12900 6800 12900 6900
+Wire Wire Line
+	12750 6700 12900 6700
+Connection ~ 12900 6700
+Wire Wire Line
+	12900 6700 12900 6800
+Wire Wire Line
+	12900 6600 12750 6600
+Connection ~ 12900 6600
+Wire Wire Line
+	12900 6600 12900 6700
+Wire Wire Line
+	12750 6500 12900 6500
+Connection ~ 12900 6500
+Wire Wire Line
+	12900 6500 12900 6600
+Wire Wire Line
+	12900 6400 12750 6400
+Connection ~ 12900 6400
+Wire Wire Line
+	12900 6400 12900 6500
+Wire Wire Line
+	12750 6300 12900 6300
+>>>>>>> c40c4f7f411ba473b9de1b8ddee4c04d22256c9a
 Wire Bus Line
 	6700 5500 6700 5850
 Wire Wire Line
@@ -3744,6 +3994,12 @@ Wire Bus Line
 	13200 2650 13200 6150
 Wire Bus Line
 	2450 2250 2450 9000
+<<<<<<< HEAD
 Text Label 6150 5900 0    50   ~ 0
 _VPA
+=======
+Connection ~ 12900 6300
+Wire Wire Line
+	12900 6300 12900 6400
+>>>>>>> c40c4f7f411ba473b9de1b8ddee4c04d22256c9a
 $EndSCHEMATC
