@@ -565,6 +565,8 @@ Text Label 15000 3050 0    50   ~ 0
 TT0
 Wire Wire Line
 	12400 8300 12400 8400
+Wire Wire Line
+	12400 8300 12750 8300
 Connection ~ 12400 8300
 $Comp
 L power:GND #PWR?
@@ -2357,6 +2359,65 @@ Text Label 7550 10500 1    50   ~ 0
 PA23
 Text Label 10000 4800 0    50   ~ 0
 PA23
+Connection ~ 12750 7900
+Wire Wire Line
+	12750 8300 12750 8100
+Connection ~ 12750 8100
+Wire Wire Line
+	12750 8100 12750 8000
+Wire Wire Line
+	12750 8000 12750 7900
+Connection ~ 12750 8000
+Connection ~ 12750 7700
+Wire Wire Line
+	12750 7900 12750 7800
+Wire Wire Line
+	12750 7800 12750 7700
+Connection ~ 12750 7800
+Connection ~ 12750 7500
+Wire Wire Line
+	12750 7700 12750 7600
+Wire Wire Line
+	12750 7600 12750 7500
+Connection ~ 12750 7600
+Connection ~ 12750 7300
+Wire Wire Line
+	12750 7500 12750 7400
+Wire Wire Line
+	12750 7400 12750 7300
+Connection ~ 12750 7400
+Connection ~ 12750 7100
+Wire Wire Line
+	12750 7300 12750 7200
+Wire Wire Line
+	12750 7200 12750 7100
+Connection ~ 12750 7200
+Connection ~ 12750 6900
+Wire Wire Line
+	12750 7100 12750 7000
+Wire Wire Line
+	12750 7000 12750 6900
+Connection ~ 12750 7000
+Connection ~ 12750 6700
+Wire Wire Line
+	12750 6900 12750 6800
+Wire Wire Line
+	12750 6800 12750 6700
+Connection ~ 12750 6800
+Wire Wire Line
+	12750 6700 12750 6600
+Connection ~ 12750 6600
+Wire Wire Line
+	12750 6600 12750 6500
+Connection ~ 12750 6500
+Wire Wire Line
+	12750 6500 12750 6400
+Connection ~ 12750 6400
+Wire Wire Line
+	12750 6400 12750 6300
+Wire Wire Line
+	12750 6300 12750 6200
+Connection ~ 12750 6300
 $Comp
 L New_Library_0:MC68040 U4
 U 1 1 5D70B5C3
@@ -2938,107 +2999,6 @@ Wire Wire Line
 	10850 6300 10850 6400
 Wire Wire Line
 	10850 6200 11000 6200
-Connection ~ 10850 6200
-Wire Wire Line
-	10850 6200 10850 6300
-Wire Wire Line
-	12750 6200 12900 6200
-Wire Wire Line
-	12900 6200 12900 6300
-Wire Wire Line
-	12400 8300 12900 8300
-Wire Wire Line
-	12750 8100 12900 8100
-Connection ~ 12900 8100
-Wire Wire Line
-	12900 8100 12900 8300
-Wire Wire Line
-	12750 8000 12900 8000
-Connection ~ 12900 8000
-Wire Wire Line
-	12900 8000 12900 8100
-Wire Wire Line
-	12750 7900 12900 7900
-Connection ~ 12900 7900
-Wire Wire Line
-	12900 7900 12900 8000
-Wire Wire Line
-	12900 7800 12750 7800
-Connection ~ 12900 7800
-Wire Wire Line
-	12900 7800 12900 7900
-Wire Wire Line
-	12750 7700 12900 7700
-Connection ~ 12900 7700
-Wire Wire Line
-	12900 7700 12900 7800
-Wire Wire Line
-	12900 7600 12750 7600
-Connection ~ 12900 7600
-Wire Wire Line
-	12900 7600 12900 7700
-Wire Wire Line
-	12750 7500 12900 7500
-Connection ~ 12900 7500
-Wire Wire Line
-	12900 7500 12900 7600
-Wire Wire Line
-	12900 7400 12750 7400
-Connection ~ 12900 7400
-Wire Wire Line
-	12900 7400 12900 7500
-Wire Wire Line
-	12750 7300 12900 7300
-Connection ~ 12900 7300
-Wire Wire Line
-	12900 7300 12900 7400
-Wire Wire Line
-	12900 7200 12750 7200
-Connection ~ 12900 7200
-Wire Wire Line
-	12900 7200 12900 7300
-Wire Wire Line
-	12750 7100 12900 7100
-Connection ~ 12900 7100
-Wire Wire Line
-	12900 7100 12900 7200
-Wire Wire Line
-	12900 7000 12750 7000
-Connection ~ 12900 7000
-Wire Wire Line
-	12900 7000 12900 7100
-Wire Wire Line
-	12750 6900 12900 6900
-Connection ~ 12900 6900
-Wire Wire Line
-	12900 6900 12900 7000
-Wire Wire Line
-	12900 6800 12750 6800
-Connection ~ 12900 6800
-Wire Wire Line
-	12900 6800 12900 6900
-Wire Wire Line
-	12750 6700 12900 6700
-Connection ~ 12900 6700
-Wire Wire Line
-	12900 6700 12900 6800
-Wire Wire Line
-	12900 6600 12750 6600
-Connection ~ 12900 6600
-Wire Wire Line
-	12900 6600 12900 6700
-Wire Wire Line
-	12750 6500 12900 6500
-Connection ~ 12900 6500
-Wire Wire Line
-	12900 6500 12900 6600
-Wire Wire Line
-	12900 6400 12750 6400
-Connection ~ 12900 6400
-Wire Wire Line
-	12900 6400 12900 6500
-Wire Wire Line
-	12750 6300 12900 6300
 Wire Bus Line
 	6700 5500 6700 5850
 Wire Wire Line
@@ -3077,7 +3037,7 @@ Wire Bus Line
 	13200 2650 13200 6150
 Wire Bus Line
 	2450 2250 2450 9000
-Connection ~ 12900 6300
+Connection ~ 10850 6200
 Wire Wire Line
-	12900 6300 12900 6400
+	10850 6200 10850 6300
 $EndSCHEMATC
