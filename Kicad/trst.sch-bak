@@ -3692,12 +3692,6 @@ Text Label 4300 9500 1    50   ~ 0
 _BERR
 Wire Wire Line
 	4300 9550 4300 9250
-Wire Wire Line
-	4650 9550 4650 9250
-Text Label 4650 9500 1    50   ~ 0
-_VPA
-Wire Wire Line
-	6150 5900 6400 5900
 Wire Bus Line
 	6700 5500 6700 5850
 Wire Wire Line
@@ -3744,6 +3738,4 @@ Wire Bus Line
 	13200 2650 13200 6150
 Wire Bus Line
 	2450 2250 2450 9000
-Text Label 6150 5900 0    50   ~ 0
-_VPA
 $EndSCHEMATC
