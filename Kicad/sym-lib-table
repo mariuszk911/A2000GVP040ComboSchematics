@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name New_Library_0)(type Legacy)(uri ${KIPRJMOD}/New_Library_0.lib)(options "")(descr ""))
+  (lib (name trst-rescue)(type Legacy)(uri ${KIPRJMOD}/trst-rescue.lib)(options "")(descr ""))
+)
