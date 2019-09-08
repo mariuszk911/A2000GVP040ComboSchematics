@@ -2175,7 +2175,7 @@ PA16
 Text GLabel 9550 8950 0    50   Input ~ 0
 U13_3
 Wire Wire Line
-	9550 8950 9700 8950
+	9550 8950 9600 8950
 Wire Wire Line
 	9700 9350 9300 9350
 Text Label 9650 9350 2    50   ~ 0
@@ -3071,10 +3071,8 @@ Text GLabel 7000 4350 0    50   Input ~ 0
 U6_33
 Wire Wire Line
 	7000 4350 7050 4350
-Text GLabel 5250 6700 0    50   Input ~ 0
+Text GLabel 5000 6700 0    50   Input ~ 0
 U6_37
-Wire Wire Line
-	5250 6700 5300 6700
 Wire Wire Line
 	3700 9550 3700 9250
 Text Label 3700 9500 1    50   ~ 0
@@ -3144,10 +3142,8 @@ Wire Wire Line
 	9250 4300 8800 4300
 Entry Wire Line
 	8800 4300 8700 4200
-Text GLabel 5250 6800 0    50   Input ~ 0
+Text GLabel 5000 6800 0    50   Input ~ 0
 U6_38
-Wire Wire Line
-	5250 6800 5300 6800
 Text GLabel 9000 4600 0    50   Input ~ 0
 U6_38
 Wire Wire Line
@@ -3327,12 +3323,8 @@ Entry Wire Line
 	14450 4400 14550 4300
 Text Label 14200 4400 0    50   ~ 0
 _BB
-Text Label 7000 4450 2    50   ~ 0
+Text Label 7000 3100 2    50   ~ 0
 _BB
-Wire Wire Line
-	6600 4450 7050 4450
-Entry Wire Line
-	6500 4350 6600 4450
 Wire Wire Line
 	4800 9550 4800 9350
 Wire Wire Line
@@ -3823,6 +3815,223 @@ U3_17
 Wire Wire Line
 	10700 9950 10500 9950
 Wire Wire Line
+	7050 3100 6600 3100
+Entry Wire Line
+	6500 3000 6600 3100
+Text GLabel 6900 3300 0    50   Input ~ 0
+U8_13
+Wire Wire Line
+	6900 3300 7050 3300
+Text GLabel 9100 8300 2    50   Input ~ 0
+U8_13
+Text GLabel 8800 8300 0    50   Input ~ 0
+U11_14
+Wire Wire Line
+	8800 8300 9100 8300
+Text GLabel 9550 8850 0    50   Input ~ 0
+U8_13
+Wire Wire Line
+	9550 8850 9600 8850
+Wire Wire Line
+	9600 8850 9600 8950
+Connection ~ 9600 8950
+Wire Wire Line
+	9600 8950 9700 8950
+$Comp
+L New_Library_0:PALCE16V8H U11
+U 1 1 5DAA9A5A
+P 5800 8250
+F 0 "U11" H 5800 9015 50  0000 C CNN
+F 1 "PALCE16V8H" H 5800 8924 50  0000 C CNN
+F 2 "" H 5800 8250 50  0001 C CNN
+F 3 "" H 5800 8250 50  0001 C CNN
+	1    5800 8250
+	1    0    0    -1  
+$EndComp
+Text GLabel 6400 7950 2    50   Input ~ 0
+U11_18
+Wire Wire Line
+	6400 7950 6250 7950
+Text GLabel 6400 8150 2    50   Input ~ 0
+U11_16
+Wire Wire Line
+	6400 8150 6250 8150
+Text GLabel 6400 7850 2    50   Input ~ 0
+U11_19
+Wire Wire Line
+	6400 7850 6250 7850
+Text GLabel 6400 8250 2    50   Input ~ 0
+U11_15
+Wire Wire Line
+	6400 8250 6250 8250
+Text GLabel 6400 8050 2    50   Input ~ 0
+U11_17
+Wire Wire Line
+	6400 8050 6250 8050
+Text GLabel 5150 8350 0    50   Input ~ 0
+U11_7
+Wire Wire Line
+	5150 8350 5350 8350
+Text GLabel 5150 7950 0    50   Input ~ 0
+U11_3
+Wire Wire Line
+	5150 7950 5350 7950
+Text GLabel 5150 8250 0    50   Input ~ 0
+U11_6
+Wire Wire Line
+	5150 8250 5350 8250
+Text GLabel 6400 8350 2    50   Input ~ 0
+U11_14
+Wire Wire Line
+	6400 8350 6250 8350
+Text Label 5350 7750 2    50   ~ 0
+PA1
+Text GLabel 5150 7850 0    50   Input ~ 0
+U6_46
+Wire Wire Line
+	5150 7850 5350 7850
+Text GLabel 5150 8050 0    50   Input ~ 0
+U6_39
+Wire Wire Line
+	5150 8050 5350 8050
+Text GLabel 6200 3900 2    50   Input ~ 0
+U6_39
+Wire Wire Line
+	6200 3900 6150 3900
+Text GLabel 5150 8150 0    50   Input ~ 0
+U6_77
+Wire Wire Line
+	5150 8150 5350 8150
+Text GLabel 6200 6700 2    50   Input ~ 0
+U6_77
+Wire Wire Line
+	6200 6700 6150 6700
+Text Label 5350 8450 2    50   ~ 0
+_BOSS
+Wire Wire Line
+	5350 8450 4850 8450
+Wire Wire Line
+	4850 7750 5350 7750
+Text GLabel 5150 8550 0    50   Input ~ 0
+U11_9
+Wire Wire Line
+	5150 8550 5350 8550
+$Comp
+L power:GND #PWR?
+U 1 1 5E6EFFC6
+P 5350 8800
+F 0 "#PWR?" H 5350 8550 50  0001 C CNN
+F 1 "GND" H 5355 8627 50  0000 C CNN
+F 2 "" H 5350 8800 50  0001 C CNN
+F 3 "" H 5350 8800 50  0001 C CNN
+	1    5350 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 8800 5350 8650
+$Comp
+L power:+5V #PWR?
+U 1 1 5E7A32D8
+P 6250 7650
+F 0 "#PWR?" H 6250 7500 50  0001 C CNN
+F 1 "+5V" H 6265 7823 50  0000 C CNN
+F 2 "" H 6250 7650 50  0001 C CNN
+F 3 "" H 6250 7650 50  0001 C CNN
+	1    6250 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 7650 6250 7750
+Text Label 5350 8250 2    50   ~ 0
+_LDS
+Text GLabel 7800 7600 0    50   Input ~ 0
+U11_9
+Text GLabel 8000 7600 2    50   Input ~ 0
+U39_6
+Wire Wire Line
+	7800 7600 7900 7600
+Text GLabel 8000 7700 2    50   Input ~ 0
+U38_9
+Wire Wire Line
+	8000 7700 7900 7700
+Wire Wire Line
+	7900 7700 7900 7600
+Connection ~ 7900 7600
+Wire Wire Line
+	7900 7600 8000 7600
+Text GLabel 8000 7800 2    50   Input ~ 0
+U43_8
+Wire Wire Line
+	7900 7800 7900 7700
+Connection ~ 7900 7700
+Wire Wire Line
+	7900 7800 8000 7800
+Text GLabel 8000 7900 2    50   Input ~ 0
+U42_7
+Wire Wire Line
+	8000 7900 7900 7900
+Wire Wire Line
+	7900 7900 7900 7800
+Connection ~ 7900 7800
+Text Label 5350 8550 2    50   ~ 0
+R_W
+Text Label 7800 7600 0    50   ~ 0
+R_W
+Wire Wire Line
+	6250 8650 6400 8650
+Text GLabel 6400 8650 2    50   Input ~ 0
+U11_11
+Text GLabel 5250 3300 0    50   Input ~ 0
+U11_11
+Wire Wire Line
+	5250 3300 5300 3300
+Text GLabel 8000 8000 2    50   Input ~ 0
+U36_19
+Text GLabel 6400 8550 2    50   Input ~ 0
+U11_12
+Wire Wire Line
+	6400 8550 6250 8550
+Text GLabel 7800 8000 0    50   Input ~ 0
+U11_11
+Wire Wire Line
+	7800 8000 8000 8000
+Text GLabel 8000 8100 2    50   Input ~ 0
+U37_2
+Text GLabel 7800 8100 0    50   Input ~ 0
+U11_12
+Wire Wire Line
+	7800 8100 8000 8100
+Text GLabel 8000 8200 2    50   Input ~ 0
+U18_5
+Text GLabel 6400 8450 2    50   Input ~ 0
+U11_13
+Wire Wire Line
+	6400 8450 6250 8450
+Text GLabel 7800 8200 0    50   Input ~ 0
+U11_13
+Wire Wire Line
+	7800 8200 8000 8200
+Text Label 5350 7950 2    50   ~ 0
+_UDS
+Text Label 8850 8100 0    50   ~ 0
+_UDS
+Text Label 5300 6800 2    50   ~ 0
+_UDS
+Wire Wire Line
+	5000 6800 5300 6800
+Wire Wire Line
+	5000 6700 5300 6700
+Text Label 3500 9500 1    50   ~ 0
+_LDS
+Text Label 3400 9500 1    50   ~ 0
+_UDS
+Wire Wire Line
+	3400 9550 3400 9300
+Wire Wire Line
+	5300 5000 5000 5000
+Wire Wire Line
+	4450 9550 4450 9250
+Wire Wire Line
 	6600 5600 7050 5600
 Wire Bus Line
 	6700 5500 6700 5850
@@ -3868,4 +4077,8 @@ Wire Bus Line
 	13200 2650 13200 6150
 Wire Bus Line
 	2450 2250 2450 9000
+Text Label 4450 9500 1    50   ~ 0
+E
+Text Label 5250 5000 2    50   ~ 0
+E
 $EndSCHEMATC
