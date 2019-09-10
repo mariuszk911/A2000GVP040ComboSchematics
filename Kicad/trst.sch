@@ -3064,7 +3064,7 @@ U6_33
 Wire Wire Line
 	5250 6300 5300 6300
 Text GLabel 7000 4350 0    50   Input ~ 0
-U6_33
+U11_8
 Wire Wire Line
 	7000 4350 7050 4350
 Text GLabel 5000 6700 0    50   Input ~ 0
@@ -4310,6 +4310,223 @@ Text GLabel 8000 6600 2    50   Input ~ 0
 U17_5
 Wire Wire Line
 	8000 6600 7800 6600
+$Comp
+L Jumper:SolderJumper_2_Open JP10
+U 1 1 5D85C670
+P 8100 2900
+F 0 "JP10" H 8100 3105 50  0000 C CNN
+F 1 "J10" H 8100 3014 50  0000 C CNN
+F 2 "" H 8100 2900 50  0001 C CNN
+F 3 "~" H 8100 2900 50  0001 C CNN
+	1    8100 2900
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 2900 0    50   Input ~ 0
+U6_33
+Text GLabel 8250 2900 2    50   Input ~ 0
+U11_8
+Text GLabel 9700 6900 0    50   Input ~ 0
+U9_9
+Wire Wire Line
+	9700 6900 9800 6900
+Text GLabel 9950 6900 2    50   Input ~ 0
+U8_11
+Text GLabel 9950 7000 2    50   Input ~ 0
+U15_12
+Wire Wire Line
+	9950 7000 9800 7000
+Wire Wire Line
+	9800 7000 9800 6900
+Connection ~ 9800 6900
+Wire Wire Line
+	9800 6900 9950 6900
+Text GLabel 6900 3200 0    50   Input ~ 0
+U8_11
+Wire Wire Line
+	6900 3200 7050 3200
+Text GLabel 6900 3600 0    50   Input ~ 0
+U6_35
+Wire Wire Line
+	6900 3600 7050 3600
+Text GLabel 9700 7100 0    50   Input ~ 0
+U9_13
+Wire Wire Line
+	9700 7100 9950 7100
+Text GLabel 9950 7100 2    50   Input ~ 0
+U6_35
+$Comp
+L New_Library_0:PAL22V10 U9
+U 1 1 5DDA408D
+P 15650 8100
+F 0 "U9" H 15625 8715 50  0000 C CNN
+F 1 "PAL22V10" H 15625 8624 50  0000 C CNN
+F 2 "" H 15650 8100 50  0001 C CNN
+F 3 "" H 15650 8100 50  0001 C CNN
+	1    15650 8100
+	1    0    0    -1  
+$EndComp
+Text GLabel 15050 8550 0    50   Input ~ 0
+U9_9
+Wire Wire Line
+	15050 8550 15200 8550
+Text GLabel 15050 8950 0    50   Input ~ 0
+U9_13
+Wire Wire Line
+	15050 8950 15200 8950
+Text GLabel 16250 8450 2    50   Input ~ 0
+U9_21
+Wire Wire Line
+	16250 8450 16050 8450
+Text Label 16050 8450 0    50   ~ 0
+_AVEC
+Text GLabel 16250 8550 2    50   Input ~ 0
+U9_20
+Wire Wire Line
+	16250 8550 16050 8550
+Text Label 16050 8550 0    50   ~ 0
+_TEA
+Text GLabel 15050 7950 0    50   Input ~ 0
+U9_3
+Wire Wire Line
+	15050 7950 15200 7950
+$Comp
+L power:GND #PWR?
+U 1 1 5E2163C1
+P 15200 9150
+F 0 "#PWR?" H 15200 8900 50  0001 C CNN
+F 1 "GND" H 15205 8977 50  0000 C CNN
+F 2 "" H 15200 9150 50  0001 C CNN
+F 3 "" H 15200 9150 50  0001 C CNN
+	1    15200 9150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15200 9150 15200 9050
+$Comp
+L power:+5V #PWR?
+U 1 1 5E2F9A59
+P 16100 7600
+F 0 "#PWR?" H 16100 7450 50  0001 C CNN
+F 1 "+5V" H 16115 7773 50  0000 C CNN
+F 2 "" H 16100 7600 50  0001 C CNN
+F 3 "" H 16100 7600 50  0001 C CNN
+	1    16100 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16100 7600 16100 7750
+Wire Wire Line
+	16100 7750 16050 7750
+Text GLabel 9700 7200 0    50   Input ~ 0
+U9_2
+Wire Wire Line
+	9700 7200 9800 7200
+Text GLabel 9950 7200 2    50   Input ~ 0
+U15_9
+Text GLabel 9950 7300 2    50   Input ~ 0
+U37_3
+Text GLabel 9950 7400 2    50   Input ~ 0
+U37_11
+Wire Wire Line
+	9950 7400 9800 7400
+Wire Wire Line
+	9800 7400 9800 7300
+Connection ~ 9800 7200
+Wire Wire Line
+	9800 7200 9950 7200
+Wire Wire Line
+	9950 7300 9800 7300
+Connection ~ 9800 7300
+Wire Wire Line
+	9800 7300 9800 7200
+Text GLabel 15050 7850 0    50   Input ~ 0
+U9_2
+Wire Wire Line
+	15050 7850 15200 7850
+Text Label 15200 8050 2    50   ~ 0
+SIZ0
+Wire Wire Line
+	15200 8050 14750 8050
+Text Label 15200 8150 2    50   ~ 0
+SIZ1
+Wire Wire Line
+	15200 8150 14750 8150
+Wire Wire Line
+	7900 4900 8250 4900
+Text GLabel 8250 4900 2    50   Input ~ 0
+U8_43
+Text GLabel 15050 8250 0    50   Input ~ 0
+U8_43
+Wire Wire Line
+	15050 8250 15200 8250
+Text GLabel 15050 8350 0    50   Input ~ 0
+U9_7
+Wire Wire Line
+	15050 8350 15200 8350
+Text GLabel 9700 7500 0    50   Input ~ 0
+U9_7
+Wire Wire Line
+	9700 7500 9800 7500
+Text GLabel 9950 7500 2    50   Input ~ 0
+U7_6
+Text GLabel 9950 7600 2    50   Input ~ 0
+U7_12
+Wire Wire Line
+	9950 7600 9800 7600
+Wire Wire Line
+	9800 7600 9800 7500
+Connection ~ 9800 7500
+Wire Wire Line
+	9800 7500 9950 7500
+Text GLabel 15050 8650 0    50   Input ~ 0
+U14_5
+Wire Wire Line
+	15050 8650 15200 8650
+Text GLabel 15050 8750 0    50   Input ~ 0
+U6_39
+Text Label 15200 8750 2    50   ~ 0
+AS
+Wire Wire Line
+	15050 8750 15200 8750
+Text GLabel 6200 7100 2    50   Input ~ 0
+U6_81
+Wire Wire Line
+	6200 7100 6150 7100
+Text GLabel 15050 8850 0    50   Input ~ 0
+U6_81
+Wire Wire Line
+	15050 8850 15200 8850
+Text GLabel 16250 8650 2    50   Input ~ 0
+U9_19
+Wire Wire Line
+	16250 8650 16050 8650
+Text GLabel 9700 7700 0    50   Input ~ 0
+U9_19
+Wire Wire Line
+	9700 7700 9800 7700
+Text GLabel 9950 7700 2    50   Input ~ 0
+U7_1
+Text GLabel 9950 7800 2    50   Input ~ 0
+U7_10
+Wire Wire Line
+	9950 7800 9800 7800
+Wire Wire Line
+	9800 7800 9800 7700
+Connection ~ 9800 7700
+Wire Wire Line
+	9800 7700 9950 7700
+Wire Wire Line
+	16050 8150 16250 8150
+Text Label 16050 8150 0    50   ~ 0
+_TCI
+Wire Wire Line
+	16050 8050 16250 8050
+Text Label 16050 8050 0    50   ~ 0
+_TBI
+Text GLabel 16250 7950 2    50   Input ~ 0
+U18_3
+Wire Wire Line
+	16250 7950 16050 7950
 Wire Wire Line
 	6600 5600 7050 5600
 Wire Bus Line
