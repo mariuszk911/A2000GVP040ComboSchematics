@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 17000 11000
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -146,7 +146,7 @@ F 3 "~" H 9550 4700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Sheet
-S 550  550  750  800 
+S 600  650  750  800 
 U 5D6ED44C
 F0 "Power" 50
 F1 "power_disstribution.sch" 50
@@ -3806,10 +3806,6 @@ Text GLabel 7000 4050 0    50   Input ~ 0
 U3_17
 Wire Wire Line
 	7050 4050 7000 4050
-Text GLabel 10700 9950 2    50   Input ~ 0
-U3_17
-Wire Wire Line
-	10700 9950 10500 9950
 Wire Wire Line
 	7050 3100 6600 3100
 Entry Wire Line
@@ -4245,10 +4241,10 @@ Wire Wire Line
 	9600 10050 9700 10050
 Text GLabel 11700 9400 2    50   Input ~ 0
 U15_2
-Text GLabel 10700 10050 2    50   Input ~ 0
+Text GLabel 10800 10050 2    50   Input ~ 0
 U3_16
 Wire Wire Line
-	10700 10050 10500 10050
+	10800 10050 10500 10050
 Text GLabel 11500 9400 0    50   Input ~ 0
 U3_16
 Wire Wire Line
@@ -4527,6 +4523,18 @@ Text GLabel 16250 7950 2    50   Input ~ 0
 U18_3
 Wire Wire Line
 	16250 7950 16050 7950
+$Sheet
+S 1700 650  500  150 
+U 5D991873
+F0 "glue_logic" 50
+F1 "glue_logic.sch" 50
+$EndSheet
+Text Label 10550 10050 0    50   ~ 0
+!_RSTI
+Text GLabel 10800 9950 2    50   Input ~ 0
+U3_17
+Wire Wire Line
+	10800 9950 10500 9950
 Wire Wire Line
 	6600 5600 7050 5600
 Wire Bus Line
