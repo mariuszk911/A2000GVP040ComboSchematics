@@ -4536,6 +4536,14 @@ U3_17
 Wire Wire Line
 	10800 9950 10500 9950
 Wire Wire Line
+	5300 6400 5250 6400
+Text GLabel 5250 6400 0    50   Input ~ 0
+U14_2
+Text GLabel 6200 6400 2    50   Input ~ 0
+U6_73
+Wire Wire Line
+	6200 6400 6150 6400
+Wire Wire Line
 	6600 5600 7050 5600
 Wire Bus Line
 	6700 5500 6700 5850
