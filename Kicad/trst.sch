@@ -2172,10 +2172,8 @@ Text Label 9650 9050 2    50   ~ 0
 A16
 Text Label 9300 9050 0    50   ~ 0
 PA16
-Text GLabel 9550 8950 0    50   Input ~ 0
+Text GLabel 8800 8550 0    50   Input ~ 0
 U13_3
-Wire Wire Line
-	9550 8950 9600 8950
 Wire Wire Line
 	9700 9350 9300 9350
 Text Label 9650 9350 2    50   ~ 0
@@ -3820,15 +3818,12 @@ Text GLabel 8800 8300 0    50   Input ~ 0
 U11_14
 Wire Wire Line
 	8800 8300 9100 8300
-Text GLabel 9550 8850 0    50   Input ~ 0
+Text GLabel 8800 8450 0    50   Input ~ 0
 U8_13
 Wire Wire Line
-	9550 8850 9600 8850
+	8800 8450 8900 8450
 Wire Wire Line
-	9600 8850 9600 8950
-Connection ~ 9600 8950
-Wire Wire Line
-	9600 8950 9700 8950
+	9000 8450 9000 8700
 $Comp
 L New_Library_0:PALCE16V8H U11
 U 1 1 5DAA9A5A
@@ -4340,8 +4335,6 @@ Text GLabel 6900 3200 0    50   Input ~ 0
 U8_11
 Wire Wire Line
 	6900 3200 7050 3200
-Text GLabel 6900 3600 0    50   Input ~ 0
-U6_35
 Wire Wire Line
 	6900 3600 7050 3600
 Text GLabel 9700 7100 0    50   Input ~ 0
@@ -4543,6 +4536,88 @@ Text GLabel 6200 6400 2    50   Input ~ 0
 U6_73
 Wire Wire Line
 	6200 6400 6150 6400
+Text GLabel 6200 5600 2    50   Input ~ 0
+U12_5
+Wire Wire Line
+	6200 5600 6150 5600
+Text GLabel 6200 5300 2    50   Input ~ 0
+U12_6
+Wire Wire Line
+	6200 5300 6150 5300
+Text GLabel 6200 5400 2    50   Input ~ 0
+U12_9
+Wire Wire Line
+	6200 5400 6150 5400
+Wire Wire Line
+	8800 8550 8900 8550
+Wire Wire Line
+	8900 8550 8900 8450
+Connection ~ 8900 8450
+Wire Wire Line
+	8900 8450 9000 8450
+Wire Wire Line
+	9550 8950 9550 8700
+Wire Wire Line
+	9550 8950 9700 8950
+Wire Wire Line
+	9000 8700 9100 8700
+$Comp
+L Device:R R26
+U 1 1 5E34955E
+P 9100 8550
+F 0 "R26" H 9170 8596 50  0000 L CNN
+F 1 "220R" H 9170 8505 50  0000 L CNN
+F 2 "" V 9030 8550 50  0001 C CNN
+F 3 "~" H 9100 8550 50  0001 C CNN
+	1    9100 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 5E349A55
+P 9100 8850
+F 0 "R27" H 9170 8896 50  0000 L CNN
+F 1 "220R" H 9170 8805 50  0000 L CNN
+F 2 "" V 9030 8850 50  0001 C CNN
+F 3 "~" H 9100 8850 50  0001 C CNN
+	1    9100 8850
+	1    0    0    -1  
+$EndComp
+Connection ~ 9100 8700
+Wire Wire Line
+	9100 8700 9550 8700
+$Comp
+L power:+5V #PWR?
+U 1 1 5E34A208
+P 9550 8400
+F 0 "#PWR?" H 9550 8250 50  0001 C CNN
+F 1 "+5V" H 9565 8573 50  0000 C CNN
+F 2 "" H 9550 8400 50  0001 C CNN
+F 3 "" H 9550 8400 50  0001 C CNN
+	1    9550 8400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 8400 9550 8400
+$Comp
+L power:GND #PWR?
+U 1 1 5E443443
+P 9100 9000
+F 0 "#PWR?" H 9100 8750 50  0001 C CNN
+F 1 "GND" H 9105 8827 50  0000 C CNN
+F 2 "" H 9100 9000 50  0001 C CNN
+F 3 "" H 9100 9000 50  0001 C CNN
+	1    9100 9000
+	1    0    0    -1  
+$EndComp
+Text GLabel 6900 3600 0    50   Input ~ 0
+U8_35
+Text GLabel 8800 8650 0    50   Input ~ 0
+U13_11
+Wire Wire Line
+	8800 8650 8900 8650
+Wire Wire Line
+	8900 8650 8900 8550
 Wire Wire Line
 	6600 5600 7050 5600
 Wire Bus Line
@@ -4589,4 +4664,5 @@ Wire Bus Line
 	13200 2650 13200 6150
 Wire Bus Line
 	2450 2250 2450 9000
+Connection ~ 8900 8550
 $EndSCHEMATC
