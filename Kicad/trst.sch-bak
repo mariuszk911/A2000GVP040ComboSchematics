@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 17000 11000
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -4055,10 +4055,8 @@ Wire Wire Line
 	4000 9550 4000 9250
 Text Label 4000 9500 1    50   ~ 0
 _CBR
-Text Label 6200 6500 0    50   ~ 0
+Text Label 6200 5100 0    50   ~ 0
 _CBR
-Wire Wire Line
-	6150 6500 6400 6500
 Wire Wire Line
 	3900 9550 3900 9250
 Text Label 3900 9500 1    50   ~ 0
@@ -4618,6 +4616,35 @@ Wire Wire Line
 	8800 8650 8900 8650
 Wire Wire Line
 	8900 8650 8900 8550
+Connection ~ 8900 8550
+Wire Wire Line
+	6150 5100 6400 5100
+Wire Wire Line
+	6150 6500 6700 6500
+$Comp
+L Jumper:SolderJumper_2_Open JP16
+U 1 1 5E21EBD7
+P 6850 6500
+F 0 "JP16" H 6850 6705 50  0000 C CNN
+F 1 "J16" H 6850 6614 50  0000 C CNN
+F 2 "" H 6850 6500 50  0001 C CNN
+F 3 "~" H 6850 6500 50  0001 C CNN
+	1    6850 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E31C40E
+P 7000 6600
+F 0 "#PWR?" H 7000 6350 50  0001 C CNN
+F 1 "GND" H 7005 6427 50  0000 C CNN
+F 2 "" H 7000 6600 50  0001 C CNN
+F 3 "" H 7000 6600 50  0001 C CNN
+	1    7000 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 6600 7000 6500
 Wire Wire Line
 	6600 5600 7050 5600
 Wire Bus Line
@@ -4664,5 +4691,10 @@ Wire Bus Line
 	13200 2650 13200 6150
 Wire Bus Line
 	2450 2250 2450 9000
-Connection ~ 8900 8550
+$Sheet
+S 3000 800  800  200 
+U 5EABF28F
+F0 "dram_part" 50
+F1 "dram.sch" 50
+$EndSheet
 $EndSCHEMATC
