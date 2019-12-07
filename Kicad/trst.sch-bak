@@ -4645,6 +4645,12 @@ F 3 "" H 7000 6600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7000 6600 7000 6500
+$Sheet
+S 3000 800  800  200 
+U 5EABF28F
+F0 "dram_part" 50
+F1 "dram.sch" 50
+$EndSheet
 Wire Wire Line
 	6600 5600 7050 5600
 Wire Bus Line
@@ -4691,10 +4697,4 @@ Wire Bus Line
 	13200 2650 13200 6150
 Wire Bus Line
 	2450 2250 2450 9000
-$Sheet
-S 3000 800  800  200 
-U 5EABF28F
-F0 "dram_part" 50
-F1 "dram.sch" 50
-$EndSheet
 $EndSCHEMATC
