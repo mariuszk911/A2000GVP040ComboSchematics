@@ -2587,17 +2587,6 @@ Wire Wire Line
 	14150 3050 14450 3050
 Entry Wire Line
 	14450 3050 14550 2950
-$Comp
-L power:GND #PWR?
-U 1 1 5F196332
-P 15850 3050
-F 0 "#PWR?" H 15850 2800 50  0001 C CNN
-F 1 "GND" H 15855 2877 50  0000 C CNN
-F 2 "" H 15850 3050 50  0001 C CNN
-F 3 "" H 15850 3050 50  0001 C CNN
-	1    15850 3050
-	1    0    0    -1  
-$EndComp
 Text Label 15600 3050 0    50   ~ 0
 _TRST
 Wire Wire Line
@@ -3168,7 +3157,7 @@ Wire Wire Line
 Entry Wire Line
 	15300 5450 15400 5350
 Text Label 14950 5350 0    50   ~ 0
-PSTo
+PST0
 Wire Wire Line
 	14900 5350 15300 5350
 Entry Wire Line
@@ -4651,6 +4640,29 @@ U 5EABF28F
 F0 "dram_part" 50
 F1 "dram.sch" 50
 $EndSheet
+Wire Wire Line
+	5900 2250 5900 2550
+Text GLabel 13350 1000 2    50   Input ~ 0
+_PCLK
+Wire Wire Line
+	13350 1000 13100 1000
+Wire Wire Line
+	13100 1000 13100 1450
+Wire Wire Line
+	13100 1450 13250 1450
+$Comp
+L power:+5V #PWR?
+U 1 1 5E1B1C43
+P 15850 2800
+F 0 "#PWR?" H 15850 2650 50  0001 C CNN
+F 1 "+5V" H 15865 2973 50  0000 C CNN
+F 2 "" H 15850 2800 50  0001 C CNN
+F 3 "" H 15850 2800 50  0001 C CNN
+	1    15850 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15850 3050 15850 2800
 Wire Wire Line
 	6600 5600 7050 5600
 Wire Bus Line

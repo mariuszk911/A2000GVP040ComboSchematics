@@ -158,8 +158,6 @@ $EndComp
 Wire Wire Line
 	1900 2000 1900 1050
 Wire Wire Line
-	1900 1050 3100 1050
-Wire Wire Line
 	4200 1050 4200 1750
 Wire Wire Line
 	4200 1750 4550 1750
@@ -443,7 +441,7 @@ Connection ~ 2000 1700
 Wire Wire Line
 	2800 1600 3000 1600
 Wire Wire Line
-	3000 1600 3000 2200
+	3000 1600 3000 1700
 $Comp
 L power:GND #PWR?
 U 1 1 5DD0872A
@@ -455,13 +453,6 @@ F 3 "" H 3000 2200 50  0001 C CNN
 	1    3000 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3100 1050 3100 1700
-Wire Wire Line
-	3100 1700 2800 1700
-Connection ~ 3100 1050
-Wire Wire Line
-	3100 1050 4200 1050
 Wire Wire Line
 	2800 1800 2900 1800
 Wire Wire Line
@@ -636,14 +627,14 @@ Wire Wire Line
 Wire Wire Line
 	4550 3950 4550 3500
 Wire Wire Line
-	4550 3500 6200 3500
+	4550 3500 6100 3500
 Wire Wire Line
-	6200 3500 6200 2200
+	6100 3500 6100 2200
 Wire Wire Line
-	6200 2200 6400 2200
+	6100 2200 6400 2200
 Text GLabel 6400 2200 2    50   Input ~ 0
 CN4_5
-Text Label 6200 2200 0    50   ~ 0
+Text Label 6150 2200 0    50   ~ 0
 _RES
 Wire Wire Line
 	4650 4050 4400 4050
@@ -708,8 +699,6 @@ Wire Wire Line
 	7600 1400 7350 1400
 Wire Wire Line
 	7350 1400 7350 950 
-Text GLabel 7350 950  1    50   Input ~ 0
-U46_19
 Text Label 7350 1000 3    50   ~ 0
 D20
 Wire Wire Line
@@ -1249,4 +1238,38 @@ Text Label 8700 2050 3    50   ~ 0
 D17
 Text Label 7450 1000 3    50   ~ 0
 D20
+$Comp
+L power:+5V #PWR?
+U 1 1 6071AF2A
+P 3200 1700
+F 0 "#PWR?" H 3200 1550 50  0001 C CNN
+F 1 "+5V" H 3215 1873 50  0000 C CNN
+F 2 "" H 3200 1700 50  0001 C CNN
+F 3 "" H 3200 1700 50  0001 C CNN
+	1    3200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R RP9_1
+U 1 1 6071C90B
+P 3200 1850
+F 0 "RP9_1" H 3270 1896 50  0000 L CNN
+F 1 "1K" H 3270 1805 50  0000 L CNN
+F 2 "" V 3130 1850 50  0001 C CNN
+F 3 "~" H 3200 1850 50  0001 C CNN
+	1    3200 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2000 3200 2100
+Connection ~ 3200 2100
+Wire Wire Line
+	1900 1050 4200 1050
+Wire Wire Line
+	2800 1700 3000 1700
+Connection ~ 3000 1700
+Wire Wire Line
+	3000 1700 3000 2200
+Text Label 6150 2300 0    50   ~ 0
+D18
 $EndSCHEMATC
