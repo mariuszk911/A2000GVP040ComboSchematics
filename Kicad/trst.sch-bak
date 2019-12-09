@@ -2,7 +2,7 @@ EESchema Schematic File Version 4
 LIBS:trst-cache
 EELAYER 30 0
 EELAYER END
-$Descr User 17000 11000
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 1 4
 Title ""

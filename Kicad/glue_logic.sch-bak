@@ -366,12 +366,6 @@ Wire Wire Line
 	4100 5350 4100 5250
 Wire Wire Line
 	4100 5250 4650 5250
-Text GLabel 1100 5750 0    50   Input ~ 0
-U3_11
-Wire Wire Line
-	1800 6050 1800 5750
-Wire Wire Line
-	1800 5750 1100 5750
 Text GLabel 1100 5850 0    50   Input ~ 0
 U8_13
 Wire Wire Line
@@ -570,12 +564,6 @@ Text GLabel 1100 6700 0    50   Input ~ 0
 U6_13
 Wire Wire Line
 	2250 6700 1100 6700
-Wire Wire Line
-	2100 5950 2100 6600
-Wire Wire Line
-	2100 6600 2250 6600
-Wire Wire Line
-	2100 5950 5800 5950
 Wire Wire Line
 	5800 5950 5800 2150
 Wire Wire Line
@@ -1061,148 +1049,14 @@ Wire Wire Line
 Connection ~ 3150 4300
 Wire Wire Line
 	3150 4300 3150 4250
-Wire Wire Line
-	10750 3150 10650 3150
-Wire Wire Line
-	10750 3050 10750 3150
-$Comp
-L power:+5V #PWR?
-U 1 1 5DC2CB2C
-P 10750 3050
-F 0 "#PWR?" H 10750 2900 50  0001 C CNN
-F 1 "+5V" H 10765 3223 50  0000 C CNN
-F 2 "" H 10750 3050 50  0001 C CNN
-F 3 "" H 10750 3050 50  0001 C CNN
-	1    10750 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9850 3800 9850 3750
-$Comp
-L power:GND #PWR?
-U 1 1 5DC0BA94
-P 9850 3800
-F 0 "#PWR?" H 9850 3550 50  0001 C CNN
-F 1 "GND" H 9855 3627 50  0000 C CNN
-F 2 "" H 9850 3800 50  0001 C CNN
-F 3 "" H 9850 3800 50  0001 C CNN
-	1    9850 3800
-	1    0    0    -1  
-$EndComp
-Text GLabel 9550 4600 2    50   Input ~ 0
-U39_20
-Wire Wire Line
-	9850 3250 9550 3250
-Wire Wire Line
-	9750 4500 9950 4500
-Wire Wire Line
-	9750 3650 9750 4500
-Wire Wire Line
-	9850 3650 9750 3650
-Text GLabel 9950 4500 2    50   Input ~ 0
-U39_15
-Connection ~ 9700 4300
-Wire Wire Line
-	9700 4400 9700 4300
-Wire Wire Line
-	9950 4400 9700 4400
-Wire Wire Line
-	9700 4300 9950 4300
-Wire Wire Line
-	9700 3550 9700 4300
-Wire Wire Line
-	9850 3550 9700 3550
-Text GLabel 9950 4400 2    50   Input ~ 0
-U38_14
-Text GLabel 9950 4300 2    50   Input ~ 0
-U42_11
-Wire Wire Line
-	9650 4200 9950 4200
-Wire Wire Line
-	9650 3450 9650 4200
-Wire Wire Line
-	9850 3450 9650 3450
-Text GLabel 9950 4200 2    50   Input ~ 0
-U39_22
 Text GLabel 5850 6350 2    50   Input ~ 0
 U41_9
 Text GLabel 5850 6250 2    50   Input ~ 0
 U40_9
 Wire Wire Line
-	9800 3150 9850 3150
-Wire Wire Line
-	9800 3050 9800 3150
-$Comp
-L power:+5V #PWR?
-U 1 1 5D8F16EA
-P 9800 3050
-F 0 "#PWR?" H 9800 2900 50  0001 C CNN
-F 1 "+5V" H 9815 3223 50  0000 C CNN
-F 2 "" H 9800 3050 50  0001 C CNN
-F 3 "" H 9800 3050 50  0001 C CNN
-	1    9800 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L New_Library_0:DM74AS74M U51
-U 1 1 5DC69CD6
-P 10250 3450
-F 0 "U51" H 10417 4015 50  0000 C CNN
-F 1 "DM74AS74M" H 10417 3924 50  0000 C CNN
-F 2 "" H 10250 3450 50  0001 C CNN
-F 3 "" H 10250 3450 50  0001 C CNN
-	1    10250 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9550 3250 9550 4600
-Wire Wire Line
-	7600 6050 7600 6450
-Wire Wire Line
-	10750 6450 10750 3750
-Wire Wire Line
-	10750 3750 10650 3750
-Wire Wire Line
-	1800 6050 7600 6050
-Wire Wire Line
-	7600 6450 10750 6450
-Wire Wire Line
-	11100 2300 9400 2300
-Wire Wire Line
 	8350 2100 8350 2450
 Wire Wire Line
 	8150 2450 8350 2450
-Text GLabel 10900 3150 1    50   Input ~ 0
-U6_73
-Wire Wire Line
-	10900 3150 10900 3250
-Wire Wire Line
-	10650 3250 10900 3250
-Wire Wire Line
-	9850 3350 9650 3350
-Wire Wire Line
-	9650 3350 9650 3050
-Text GLabel 9650 3050 1    50   Input ~ 0
-U2_1
-Text Label 9650 3100 3    50   ~ 0
-_CLK
-Wire Wire Line
-	10650 3350 11000 3350
-Text Label 11000 3150 3    50   ~ 0
-D21
-Text GLabel 10950 2650 0    50   Input ~ 0
-U48_20
-Text GLabel 10950 2550 0    50   Input ~ 0
-U46_20
-Wire Wire Line
-	11000 2550 10950 2550
-Wire Wire Line
-	11000 2550 11000 2650
-Wire Wire Line
-	10950 2650 11000 2650
-Connection ~ 11000 2650
-Wire Wire Line
-	11000 2650 11000 3350
 Wire Wire Line
 	8250 2000 8400 2000
 Wire Wire Line
@@ -1215,17 +1069,6 @@ Text Label 8400 2050 3    50   ~ 0
 D18
 Text Label 8400 3400 2    50   ~ 0
 D18
-Wire Wire Line
-	11100 3450 11100 2300
-Wire Wire Line
-	10650 3450 11100 3450
-Wire Wire Line
-	8350 2450 8350 2600
-Wire Wire Line
-	8350 2600 9400 2600
-Wire Wire Line
-	9400 2600 9400 2300
-Connection ~ 8350 2450
 Wire Wire Line
 	8400 2000 8400 3400
 Wire Wire Line
@@ -1272,4 +1115,10 @@ Wire Wire Line
 	3000 1700 3000 2200
 Text Label 6150 2300 0    50   ~ 0
 D18
+Wire Wire Line
+	2100 5950 5800 5950
+Wire Wire Line
+	2100 6600 2250 6600
+Wire Wire Line
+	2100 5950 2100 6600
 $EndSCHEMATC
